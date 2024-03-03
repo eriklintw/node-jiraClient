@@ -1,0 +1,9 @@
+project: myProject
+webserver: http://192.168.168.100
+user:
+  id: myID
+  password: myPassword
+actions:
+  listProject:
+    url: someURL
+    method: GET
