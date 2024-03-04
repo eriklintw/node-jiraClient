@@ -13,7 +13,7 @@ app.get('/api/v1/users', function (req, res) {
 })
 
 app.get('/ping', function (req, res) {
-  res.send('Hello World!');
+  res.send('pong');
 });
 
 var server = app.listen(3000, function () {
