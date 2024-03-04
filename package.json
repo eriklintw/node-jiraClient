@@ -1,6 +1,7 @@
 {
   "name": "jiraclient",
   "version": "1.0.0",
+  "type":"module",
   "description": "a restful client for jira system",
   "main": "src/App.js",
   "scripts": {
