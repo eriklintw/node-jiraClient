@@ -1,8 +1,8 @@
 const Subscribers = {
-    firstFunction: function(payload){
+    firstFunction: function(event, payload){
         console.log('1stFunction ' + payload)
     },
-    secondFunction : function(payload){
+    secondFunction : function(event, payload){
         console.log('2ndFunction')
     }
 }
